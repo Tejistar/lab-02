@@ -12,7 +12,7 @@
         android:layout_width="407dp"
         android:layout_height="587dp"
         android:layout_marginTop="17dp"
-        app:layout_constraintBottom_toTopOf="@+id/myTextView"
+        app:layout_constraintBottom_toTopOf="@+id/textLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addbutton" />
@@ -39,6 +39,7 @@
 
     <Button
         android:id="@+id/confirmbutton"
+        android:visibility="gone"
         android:layout_width="156dp"
         android:layout_height="54dp"
         android:layout_marginTop="7dp"
@@ -50,7 +51,8 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/myTextView"
+        android:id="@+id/textLine"
+        android:visibility="gone"
         android:layout_width="253dp"
         android:layout_height="39dp"
         android:layout_marginEnd="1dp"
